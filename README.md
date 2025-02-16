@@ -11,6 +11,7 @@ La aplicación ha sido construida utilizando una arquitectura basada en caracter
 ### Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
+```
 src/
 ├── assets/ # Archivos estáticos (imágenes, fuentes, etc.)
 ├── components/ # Componentes reutilizables de la UI
@@ -21,6 +22,7 @@ src/
 ├── pages/ # Páginas de la aplicación
 ├── services/ # Servicios (API, lógica de negocio, etc.)
 └── tests/ # Archivos de pruebas (unitarias, de integración, etc.)
+```
 
 ## Funcionalidades
 
@@ -40,8 +42,7 @@ Para comenzar con el proyecto, sigue estos pasos:
    Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone <URL del repositorio>
-   cd <nombre del repositorio>
+   git clone https://github.com/hectork4/dragon-ball-app.git
    ```
 
 2. **Instalar las dependencias**:
@@ -59,28 +60,49 @@ Para comenzar con el proyecto, sigue estos pasos:
 El proyecto incluye varios scripts útiles que puedes ejecutar con `npm run <script>`:
 
 ### `dev`
+  ```bash
+   npm run dev
+   ```
 Inicia el servidor de desarrollo.
 
 El servidor estará disponible en http://localhost:5173 por defecto.
 
 ### `build`
+  ```bash
+   npm run build
+   ```
 Compila la aplicación para producción.
 
 Los archivos de producción se generarán en la carpeta dist.
 
 ### `lint`
+  ```bash
+   npm run lint
+   ```
 Ejecuta ESLint para analizar el código y detectar posibles problemas de estilo o errores.
 
 ### `preview`
+  ```bash
+   npm run preview
+   ```
 Muestra una previsualización de la aplicación de producción.
 
 El servidor de previsualización estará disponible en http://localhost:4173.
 
 ### `test`
+  ```bash
+   npm run test
+   ```
 Ejecuta las pruebas de la aplicación utilizando Vitest.
 
 ### `test:watch`
+  ```bash
+   npm run test:watch
+   ```
 Ejecuta las pruebas en modo vigilancia, lo que significa que se vuelven a ejecutar automáticamente cada vez que cambias un archivo.
 
 ### `test:coverage`
+  ```bash
+   npm run test:coverage
+   ```
 Ejecuta las pruebas y genera un informe de cobertura.

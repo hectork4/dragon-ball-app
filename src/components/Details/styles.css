@@ -94,6 +94,14 @@
   .character-title h3 {
     margin: 20px 0;
   }
+
+  .transformations-list {
+    justify-content: flex-start;
+    padding: 0 16px;
+    scroll-padding: 0 16px;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
 }
 
 @media (max-width: 1251px) {

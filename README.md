@@ -31,7 +31,6 @@ src/
 - **Búsqueda**: La barra de búsqueda ejecuta la búsqueda de personajes cuando el usuario deja de escribir por 2 segundos o presiona Enter.
 - **Pruebas**: Las pruebas automatizadas se configuran utilizando [Vitest](https://vitest.dev/). El objetivo es superar el 80% de cobertura de pruebas en el proyecto.
 
-**Nota**: No es necesario registrarse en la API de Dragon Ball para obtener una clave API.
 
 ## Instalación
 
@@ -52,8 +51,7 @@ Para comenzar con el proyecto, sigue estos pasos:
    ```bash
    npm install
    ```
-
-   El servidor estará disponible en http://localhost:5173 por defecto.
+**Nota**: No es necesario registrarse en la API de Dragon Ball para obtener una clave API.
 
 ## Scripts Disponibles
 
